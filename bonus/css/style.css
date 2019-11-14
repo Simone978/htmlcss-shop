@@ -9,6 +9,7 @@ body {
   text-align: center;
 }
 
+/* Impaginazione lista prodotti */
 
 li {
   display: inline-block;
@@ -17,6 +18,15 @@ li {
   cursor:pointer;
 }
 
+.image{
+  display: inline-block;
+  width:300px;
+  height:372px;
+  background-size:cover;
+}
+
+/* impostazione sconto
+ */
 .discount{
   position: absolute;
   top: 0;
@@ -28,6 +38,7 @@ li:nth-child(2n) .discount{
   background: green;
 }
 
+/* impostazione heart */
 .heart{
   position: absolute;
   width: 100%;
