@@ -11,15 +11,29 @@ body {
 section > div{
   display: inline-block;
   position: relative;
+  cursor:pointer;
 }
 
 .discount{
   position: absolute;
-  left: 90%;
-  bottom: 90%;
+  top: 0;
+  right: 0;
   background: red;
 }
 
 div:nth-child(2n) .discount{
   background: green;
+}
+
+.heart{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: 5%;
+  display: none;
+  color: red;
+}
+
+div:hover .heart{
+  display: block;
 }
