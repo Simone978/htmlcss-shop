@@ -7,3 +7,19 @@
 body {
   padding: 10px;
 }
+
+section > div{
+  display: inline-block;
+  position: relative;
+}
+
+.discount{
+  position: absolute;
+  left: 90%;
+  bottom: 90%;
+  background: red;
+}
+
+div:nth-child(2n) .discount{
+  background: green;
+}
