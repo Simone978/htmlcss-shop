@@ -1,6 +1,6 @@
 * {
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -12,8 +12,10 @@ body {
 section > div{
   display: inline-block;
   position: relative;
-  cursor:pointer;
+  cursor: pointer;
 }
+
+/* impostazione sconto */
 
 .discount{
   position: absolute;
@@ -25,6 +27,8 @@ section > div{
 div:nth-child(2n) .discount{
   background: green;
 }
+
+/* impostazione heart */
 
 .heart{
   position: absolute;
