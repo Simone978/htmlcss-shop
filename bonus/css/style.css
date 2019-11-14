@@ -14,15 +14,15 @@ body {
 li {
   display: inline-block;
   position: relative;
-  display:inline;
-  cursor:pointer;
+  display: inline;
+  cursor: pointer;
 }
 
 .image{
   display: inline-block;
-  width:300px;
-  height:372px;
-  background-size:cover;
+  width: 300px;
+  height: 372px;
+  background-size: cover;
 }
 
 /* impostazione sconto
@@ -41,11 +41,11 @@ li:nth-child(2n) .discount{
 /* impostazione heart */
 .heart{
   position: absolute;
-  width: 100%;
-  text-align: center;
-  bottom: 5%;
   display: none;
+  width: 100%;
   color: red;
+  bottom: 5%;
+  text-align: center;
 }
 
 li:hover .heart{
